@@ -30,7 +30,7 @@ Example 2 (this fixes it, but is not really a viable solution)
 To setup and run:
 ---
     # requires aurelia-cli and gulp installed globally
-    cd skeleton
+    cd skeleton-plugin
     npm install
     gulp build
     cd ../app
