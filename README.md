@@ -38,23 +38,14 @@ To setup and run:
     au run --watch
 
 
-Error on Mac:
----
-    ...
-    Tracing aurelia-skeleton-plugin...
-    error /.../app/node_modules/aurelia-skeleton-plugin/dist/amd/aurelia-skeleton-plugin.js
-    ...
-
-
-Error on Windows:
+Error:
 ---
     ...
     Tracing main...
     ------- File not found or not accessible ------
-    | Location: C:/.../app/src/aurelia-http-client.js
-    | Requested by: C:\...\app\src\main.js
-    | Is this a package? Make sure that it is configured in 
-    aurelia.json and that it is not a Node.js package
+    | Location: .../app/src/aurelia-http-client.js
+    | Requested by: .../app/src/main.js
+    | Is this a package? Make sure that it is configured in aurelia.json and that it is not a Node.js package
     -----------------------------------------------
     ...
 
