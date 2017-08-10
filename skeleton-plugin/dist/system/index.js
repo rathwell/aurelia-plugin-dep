@@ -1,8 +1,9 @@
 'use strict';
 
-System.register([], function (_export, _context) {
+System.register(['aurelia-http-client'], function (_export, _context) {
   "use strict";
 
+  var HttpClient;
   function configure(config) {
     config.globalResources('./hello-world');
   }
@@ -10,7 +11,9 @@ System.register([], function (_export, _context) {
   _export('configure', configure);
 
   return {
-    setters: [],
+    setters: [function (_aureliaHttpClient) {
+      HttpClient = _aureliaHttpClient.HttpClient;
+    }],
     execute: function () {}
   };
 });

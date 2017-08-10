@@ -134,6 +134,11 @@
             "path": "../node_modules/aurelia-testing/dist/amd",
             "main": "aurelia-testing",
             "env": "dev"
+          },
+          {
+            "name": "aurelia-skeleton-plugin",
+            "path": "../node_modules/aurelia-skeleton-plugin/dist/amd",
+            "main": "aurelia-skeleton-plugin"
           }
         ]
       }

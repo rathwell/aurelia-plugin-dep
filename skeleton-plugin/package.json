@@ -18,6 +18,9 @@
     "type": "git",
     "url": "http://github.com/aurelia/skeleton-plugin"
   },
+  "dependencies": {
+    "aurelia-http-client": "1.1.1"
+  },
   "devDependencies": {
     "aurelia-tools": "^1.0.0",
     "babel-eslint": "^7.1.1",
